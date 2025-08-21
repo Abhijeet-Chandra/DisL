@@ -1,0 +1,98 @@
+#! /mingw64/bin/vvp
+:ivl_version "12.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 9;
+:vpi_module "C:\msys64\mingw64\lib\ivl\system.vpi";
+:vpi_module "C:\msys64\mingw64\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\msys64\mingw64\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\msys64\mingw64\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\msys64\mingw64\lib\ivl\va_math.vpi";
+S_00000251449b1330 .scope module, "two_bit_multiplier_tb" "two_bit_multiplier_tb" 2 4;
+ .timescale -9 -9;
+v0000025144a0b9b0_0 .var "a", 1 0;
+v0000025144a0a6f0_0 .var "b", 1 0;
+v0000025144a0b370_0 .net "p", 3 0, L_0000025144a0b5f0;  1 drivers
+S_00000251449b1880 .scope module, "two_bit_multiplier_instance" "two_bit_multiplier" 2 9, 3 4 0, S_00000251449b1330;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 2 "a";
+    .port_info 1 /INPUT 2 "b";
+    .port_info 2 /OUTPUT 4 "p";
+L_00000251449b1ba0 .functor AND 1, L_0000025144a0abf0, L_0000025144a0b190, C4<1>, C4<1>;
+L_0000025144a0c750 .functor AND 1, L_0000025144a0be10, L_0000025144a0a970, C4<1>, C4<1>;
+L_0000025144a0c590 .functor AND 1, L_0000025144a0ad30, L_0000025144a0b0f0, C4<1>, C4<1>;
+L_0000025144a0c3d0 .functor AND 1, L_0000025144a0a790, L_0000025144a0ba50, C4<1>, C4<1>;
+v00000251449aac40_0 .net *"_ivl_11", 0 0, L_0000025144a0a970;  1 drivers
+v00000251449aae20_0 .net *"_ivl_15", 0 0, L_0000025144a0ad30;  1 drivers
+v00000251449ab000_0 .net *"_ivl_17", 0 0, L_0000025144a0b0f0;  1 drivers
+v00000251449aa920_0 .net *"_ivl_25", 0 0, L_0000025144a0a790;  1 drivers
+v00000251449ab280_0 .net *"_ivl_27", 0 0, L_0000025144a0ba50;  1 drivers
+v00000251449aaa60_0 .net *"_ivl_3", 0 0, L_0000025144a0abf0;  1 drivers
+v00000251449aab00_0 .net *"_ivl_41", 0 0, L_0000025144a0ac90;  1 drivers
+v00000251449aaba0_0 .net *"_ivl_5", 0 0, L_0000025144a0b190;  1 drivers
+v00000251449aace0_0 .net *"_ivl_6", 0 0, L_00000251449b1ba0;  1 drivers
+v00000251449aad80_0 .net *"_ivl_9", 0 0, L_0000025144a0be10;  1 drivers
+v0000025144a0a470_0 .net "a", 1 0, v0000025144a0b9b0_0;  1 drivers
+v0000025144a0a290_0 .net "b", 1 0, v0000025144a0a6f0_0;  1 drivers
+v0000025144a0b550_0 .net "c", 2 1, L_0000025144a0a0b0;  1 drivers
+v0000025144a0a510_0 .net "p", 3 0, L_0000025144a0b5f0;  alias, 1 drivers
+L_0000025144a0abf0 .part v0000025144a0b9b0_0, 0, 1;
+L_0000025144a0b190 .part v0000025144a0a6f0_0, 0, 1;
+L_0000025144a0be10 .part v0000025144a0b9b0_0, 1, 1;
+L_0000025144a0a970 .part v0000025144a0a6f0_0, 0, 1;
+L_0000025144a0ad30 .part v0000025144a0b9b0_0, 0, 1;
+L_0000025144a0b0f0 .part v0000025144a0a6f0_0, 1, 1;
+L_0000025144a0a790 .part v0000025144a0b9b0_0, 1, 1;
+L_0000025144a0ba50 .part v0000025144a0a6f0_0, 1, 1;
+L_0000025144a0a830 .part L_0000025144a0a0b0, 0, 1;
+L_0000025144a0a0b0 .concat8 [ 1 1 0 0], L_00000251449b8cf0, L_0000025144a0c360;
+L_0000025144a0b5f0 .concat8 [ 1 1 1 1], L_00000251449b1ba0, L_000002514496d410, L_0000025144a0c6e0, L_0000025144a0ac90;
+L_0000025144a0ac90 .part L_0000025144a0a0b0, 1, 1;
+S_00000251449b1a10 .scope module, "half_adder0" "half_adder" 3 11, 4 1 0, S_00000251449b1880;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "s";
+    .port_info 3 /OUTPUT 1 "cout";
+L_000002514496d410 .functor XOR 1, L_0000025144a0c750, L_0000025144a0c590, C4<0>, C4<0>;
+L_00000251449b8cf0 .functor AND 1, L_0000025144a0c750, L_0000025144a0c590, C4<1>, C4<1>;
+v00000251449aa9c0_0 .net "a", 0 0, L_0000025144a0c750;  1 drivers
+v00000251449aa600_0 .net "b", 0 0, L_0000025144a0c590;  1 drivers
+v00000251449aa6a0_0 .net "cout", 0 0, L_00000251449b8cf0;  1 drivers
+v00000251449aaec0_0 .net "s", 0 0, L_000002514496d410;  1 drivers
+S_00000251449b8830 .scope module, "half_adder1" "half_adder" 3 12, 4 1 0, S_00000251449b1880;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "s";
+    .port_info 3 /OUTPUT 1 "cout";
+L_0000025144a0c6e0 .functor XOR 1, L_0000025144a0c3d0, L_0000025144a0a830, C4<0>, C4<0>;
+L_0000025144a0c360 .functor AND 1, L_0000025144a0c3d0, L_0000025144a0a830, C4<1>, C4<1>;
+v00000251449aaf60_0 .net "a", 0 0, L_0000025144a0c3d0;  1 drivers
+v00000251449aa740_0 .net "b", 0 0, L_0000025144a0a830;  1 drivers
+v00000251449aa880_0 .net "cout", 0 0, L_0000025144a0c360;  1 drivers
+v00000251449ab0a0_0 .net "s", 0 0, L_0000025144a0c6e0;  1 drivers
+    .scope S_00000251449b1330;
+T_0 ;
+    %vpi_call 2 12 "$dumpfile", "two_bit_multiplier_tb.vcd" {0 0 0};
+    %vpi_call 2 13 "$dumpvars", 32'sb00000000000000000000000000000000, S_00000251449b1330 {0 0 0};
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0000025144a0b9b0_0, 0, 2;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0000025144a0a6f0_0, 0, 2;
+    %delay 20, 0;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0000025144a0b9b0_0, 0, 2;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0000025144a0a6f0_0, 0, 2;
+    %delay 20, 0;
+    %vpi_call 2 21 "$display", "Test completed successfully." {0 0 0};
+    %vpi_call 2 22 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 5;
+    "N/A";
+    "<interactive>";
+    "two_bit_multiplier_tb.v";
+    "./two_bit_multiplier.v";
+    "./half_adder.v";

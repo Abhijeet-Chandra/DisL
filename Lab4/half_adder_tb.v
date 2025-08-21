@@ -17,8 +17,8 @@ initial begin
     #10;
     a1=1; b1=1;
     #10;
-    $finish;
     $display("Test completed successfully.");
+    $finish;
 end
 endmodule
 

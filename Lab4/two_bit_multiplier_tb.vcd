@@ -1,0 +1,62 @@
+$date
+	Thu Aug 21 11:15:47 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module two_bit_multiplier_tb $end
+$var wire 4 ! p [3:0] $end
+$var reg 2 " a [1:0] $end
+$var reg 2 # b [1:0] $end
+$scope module two_bit_multiplier_instance $end
+$var wire 2 $ a [1:0] $end
+$var wire 2 % b [1:0] $end
+$var wire 4 & p [3:0] $end
+$var wire 2 ' c [2:1] $end
+$scope module half_adder0 $end
+$var wire 1 ( a $end
+$var wire 1 ) b $end
+$var wire 1 * cout $end
+$var wire 1 + s $end
+$upscope $end
+$scope module half_adder1 $end
+$var wire 1 , a $end
+$var wire 1 - b $end
+$var wire 1 . cout $end
+$var wire 1 / s $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1/
+0.
+0-
+1,
+0+
+0*
+0)
+0(
+b0 '
+b100 &
+b10 %
+b10 $
+b10 #
+b10 "
+b100 !
+$end
+#20
+b110 !
+b110 &
+1+
+1)
+b11 "
+b11 $
+#40
