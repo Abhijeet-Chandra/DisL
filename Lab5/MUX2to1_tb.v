@@ -13,13 +13,17 @@ initial begin
     $dumpfile("MUX2to1_tb.vcd");
     $dumpvars(0,MUX2to1_tb);
 
-    // s0 = 0;
-    s0 = 0; w[0] = 1; w[1] = 0;
-    #10;
+    //case 1: let w = 3
+    w = 2'b11; s0 = 0;
+    #10
+    w = 2'b11; s0 = 1;
+    #10
 
-    //s0 = 1;
-    s0 = 1; w[0] = 1; w[1] = 0;
-    #10;
+    //case 2: let w = 2
+    w = 2'b10; s0 = 0;
+    #10
+    w = 2'b10; s0 = 1;
+    #10
     $display("Test completed successfully.");
     $finish;
 end
