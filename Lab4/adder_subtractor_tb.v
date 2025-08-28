@@ -15,10 +15,10 @@ initial begin
     $dumpfile("adder_subtractor_tb.vcd");
     $dumpvars(0,adder_subtractor_tb);
 
-    a = 8; b = 10;
+    a = 8; b = 4'b1010;
     cin = 0;
     #20;
-    a = 8; b = 10;
+    a = 8; b = 4'b1010;
     cin = 1;
     #20;
 
