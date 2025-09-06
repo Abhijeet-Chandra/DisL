@@ -1,5 +1,5 @@
 $date
-	Sun Aug 31 23:56:20 2025
+	Sat Sep 06 20:16:24 2025
 $end
 $version
 	Icarus Verilog
@@ -19,114 +19,34 @@ $var wire 4 & c [0:3] $end
 $scope module MUX4to1_stage1a $end
 $var wire 2 ' s [1:0] $end
 $var wire 4 ( w [0:3] $end
-$var wire 1 ) f $end
-$var wire 2 * c [0:1] $end
-$scope module MUX2to1_stage1a $end
-$var wire 1 + s0 $end
-$var wire 2 , w [0:1] $end
-$var reg 1 - f $end
-$upscope $end
-$scope module MUX2to1_stage1b $end
-$var wire 1 . s0 $end
-$var wire 2 / w [0:1] $end
-$var reg 1 0 f $end
-$upscope $end
-$scope module MUX2to1_stage2 $end
-$var wire 1 1 s0 $end
-$var wire 2 2 w [0:1] $end
 $var reg 1 ) f $end
 $upscope $end
-$upscope $end
 $scope module MUX4to1_stage1b $end
-$var wire 2 3 s [1:0] $end
-$var wire 4 4 w [0:3] $end
-$var wire 1 5 f $end
-$var wire 2 6 c [0:1] $end
-$scope module MUX2to1_stage1a $end
-$var wire 1 7 s0 $end
-$var wire 2 8 w [0:1] $end
-$var reg 1 9 f $end
-$upscope $end
-$scope module MUX2to1_stage1b $end
-$var wire 1 : s0 $end
-$var wire 2 ; w [0:1] $end
-$var reg 1 < f $end
-$upscope $end
-$scope module MUX2to1_stage2 $end
-$var wire 1 = s0 $end
-$var wire 2 > w [0:1] $end
-$var reg 1 5 f $end
-$upscope $end
+$var wire 2 * s [1:0] $end
+$var wire 4 + w [0:3] $end
+$var reg 1 , f $end
 $upscope $end
 $scope module MUX4to1_stage1c $end
-$var wire 2 ? s [1:0] $end
-$var wire 4 @ w [0:3] $end
-$var wire 1 A f $end
-$var wire 2 B c [0:1] $end
-$scope module MUX2to1_stage1a $end
-$var wire 1 C s0 $end
-$var wire 2 D w [0:1] $end
-$var reg 1 E f $end
-$upscope $end
-$scope module MUX2to1_stage1b $end
-$var wire 1 F s0 $end
-$var wire 2 G w [0:1] $end
-$var reg 1 H f $end
-$upscope $end
-$scope module MUX2to1_stage2 $end
-$var wire 1 I s0 $end
-$var wire 2 J w [0:1] $end
-$var reg 1 A f $end
-$upscope $end
+$var wire 2 - s [1:0] $end
+$var wire 4 . w [0:3] $end
+$var reg 1 / f $end
 $upscope $end
 $scope module MUX4to1_stage1d $end
-$var wire 2 K s [1:0] $end
-$var wire 4 L w [0:3] $end
-$var wire 1 M f $end
-$var wire 2 N c [0:1] $end
-$scope module MUX2to1_stage1a $end
-$var wire 1 O s0 $end
-$var wire 2 P w [0:1] $end
-$var reg 1 Q f $end
-$upscope $end
-$scope module MUX2to1_stage1b $end
-$var wire 1 R s0 $end
-$var wire 2 S w [0:1] $end
-$var reg 1 T f $end
-$upscope $end
-$scope module MUX2to1_stage2 $end
-$var wire 1 U s0 $end
-$var wire 2 V w [0:1] $end
-$var reg 1 M f $end
-$upscope $end
+$var wire 2 0 s [1:0] $end
+$var wire 4 1 w [0:3] $end
+$var reg 1 2 f $end
 $upscope $end
 $scope module MUX4to1_stage2 $end
-$var wire 2 W s [1:0] $end
-$var wire 4 X w [0:3] $end
-$var wire 1 ! f $end
-$var wire 2 Y c [0:1] $end
-$scope module MUX2to1_stage1a $end
-$var wire 1 Z s0 $end
-$var wire 2 [ w [0:1] $end
-$var reg 1 \ f $end
-$upscope $end
-$scope module MUX2to1_stage1b $end
-$var wire 1 ] s0 $end
-$var wire 2 ^ w [0:1] $end
-$var reg 1 _ f $end
-$upscope $end
-$scope module MUX2to1_stage2 $end
-$var wire 1 ` s0 $end
-$var wire 2 a w [0:1] $end
+$var wire 2 3 s [1:0] $end
+$var wire 4 4 w [0:3] $end
 $var reg 1 ! f $end
 $upscope $end
 $upscope $end
-$upscope $end
 $scope begin $ivl_for_loop0 $end
-$var integer 32 b i [31:0] $end
+$var integer 32 5 i [31:0] $end
 $upscope $end
 $scope begin $ivl_for_loop1 $end
-$var integer 32 c i [31:0] $end
+$var integer 32 6 i [31:0] $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -135,64 +55,19 @@ $dumpall
 $end
 #0
 $dumpvars
-bx c
-b0 b
-b11 a
-0`
-1_
-b10 ^
-0]
-1\
-b11 [
-0Z
-b11 Y
-b1110 X
-b0 W
-b0 V
-0U
-0T
-b1 S
-0R
-0Q
-b0 P
-0O
-b0 N
-0M
-b1 L
-b0 K
-b11 J
-0I
-1H
-b11 G
-0F
-1E
-b11 D
-0C
-b11 B
-1A
-b1111 @
-b0 ?
-b10 >
-0=
-0<
-b0 ;
-0:
-19
-b11 8
-07
-b10 6
-15
-b1100 4
+bx 6
+b0 5
+b1110 4
 b0 3
-b11 2
-01
-10
-b10 /
-0.
-1-
-b10 ,
-0+
-b11 *
+02
+b1 1
+b0 0
+1/
+b1111 .
+b0 -
+1,
+b1100 +
+b0 *
 1)
 b1010 (
 b0 '
@@ -205,1086 +80,404 @@ b0 "
 $end
 #10
 0!
-b1 Y
-b1 a
-0\
-b1 [
 b110 &
-b110 X
+b110 4
 0)
-0-
-b0 *
-b0 2
-00
-b1 N
-b1 V
-1T
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
 b1 '
-b1 3
-b1 ?
-b1 K
+b1 *
+b1 -
+b1 0
 b1 "
 b1 $
-b1 b
+b1 5
 #20
 1!
-b11 Y
-b11 a
-1\
 1)
-b10 [
-b10 ^
-1-
-b11 *
-b11 2
-10
-05
-b0 N
-b0 V
-0T
 b1010 &
-b1010 X
-0M
-0+
-0.
-11
-07
-0:
-1=
-0C
-0F
-1I
-0O
-0R
-1U
+b1010 4
+0,
 b10 '
-b10 3
-b10 ?
-b10 K
+b10 *
+b10 -
+b10 0
 b10 "
 b10 $
-b10 b
+b10 5
 #30
 0!
-b1 Y
-b1 a
-0\
-b0 [
-b11 ^
 0)
 b11 &
-b11 X
-1M
-0-
-b0 *
-b0 2
-00
-b1 N
-b1 V
-1T
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
+b11 4
+12
 b11 '
-b11 3
-b11 ?
-b11 K
+b11 *
+b11 -
+b11 0
 b11 "
 b11 $
-b11 b
+b11 5
 #40
 1!
-1\
-b10 Y
-b10 a
-0_
 1)
-b11 [
-b10 ^
-1-
-b11 *
-b11 2
-10
-15
-b0 N
-b0 V
-0T
+1,
 b1110 &
-b1110 X
-0M
-0+
-0.
-01
-07
-0:
-0=
-0C
-0F
-0I
-0O
-0R
-0U
-1Z
-1]
+b1110 4
+02
 b0 '
-b0 3
-b0 ?
-b0 K
-b1 W
+b0 *
+b0 -
+b0 0
+b1 3
 b100 "
 b100 $
-b100 b
+b100 5
 #50
-b1 [
 b110 &
-b110 X
+b110 4
 0)
-0-
-b0 *
-b0 2
-00
-b1 N
-b1 V
-1T
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
 b1 '
-b1 3
-b1 ?
-b1 K
+b1 *
+b1 -
+b1 0
 b101 "
 b101 $
-b101 b
+b101 5
 #60
 0!
-0\
-b0 Y
-b0 a
-0_
 1)
-b10 [
-b10 ^
-1-
-b11 *
-b11 2
-10
-05
-b0 N
-b0 V
-0T
 b1010 &
-b1010 X
-0M
-0+
-0.
-11
-07
-0:
-1=
-0C
-0F
-1I
-0O
-0R
-1U
+b1010 4
+0,
 b10 '
-b10 3
-b10 ?
-b10 K
+b10 *
+b10 -
+b10 0
 b110 "
 b110 $
-b110 b
+b110 5
 #70
-b1 Y
-b1 a
-1_
-b0 [
-b11 ^
 0)
 b11 &
-b11 X
-1M
-0-
-b0 *
-b0 2
-00
-b1 N
-b1 V
-1T
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
+b11 4
+12
 b11 '
-b11 3
-b11 ?
-b11 K
+b11 *
+b11 -
+b11 0
 b111 "
 b111 $
-b111 b
+b111 5
 #80
-b11 Y
-b11 a
-1\
 1)
-b11 [
-b10 ^
-1-
-b11 *
-b11 2
-10
-15
-b0 N
-b0 V
-0T
+1,
 b1110 &
-b1110 X
-0M
+b1110 4
+02
 1!
-0+
-0.
-01
-07
-0:
-0=
-0C
-0F
-0I
-0O
-0R
-0U
-0Z
-0]
-1`
 b0 '
-b0 3
-b0 ?
-b0 K
-b10 W
+b0 *
+b0 -
+b0 0
+b10 3
 b1000 "
 b1000 $
-b1000 b
+b1000 5
 #90
-b1 Y
-b1 a
-0\
-b1 [
 b110 &
-b110 X
+b110 4
 0)
-0-
-b0 *
-b0 2
-00
-b1 N
-b1 V
-1T
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
 b1 '
-b1 3
-b1 ?
-b1 K
+b1 *
+b1 -
+b1 0
 b1001 "
 b1001 $
-b1001 b
+b1001 5
 #100
-b11 Y
-b11 a
-1\
 1)
-b10 [
-b10 ^
-1-
-b11 *
-b11 2
-10
-05
-b0 N
-b0 V
-0T
 b1010 &
-b1010 X
-0M
-0+
-0.
-11
-07
-0:
-1=
-0C
-0F
-1I
-0O
-0R
-1U
+b1010 4
+0,
 b10 '
-b10 3
-b10 ?
-b10 K
+b10 *
+b10 -
+b10 0
 b1010 "
 b1010 $
-b1010 b
+b1010 5
 #110
-b1 Y
-b1 a
-0\
-b0 [
-b11 ^
 0)
 b11 &
-b11 X
-1M
-0-
-b0 *
-b0 2
-00
-b1 N
-b1 V
-1T
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
+b11 4
+12
 b11 '
-b11 3
-b11 ?
-b11 K
+b11 *
+b11 -
+b11 0
 b1011 "
 b1011 $
-b1011 b
+b1011 5
 #120
 0!
-1\
-b10 Y
-b10 a
-0_
 1)
-b11 [
-b10 ^
-1-
-b11 *
-b11 2
-10
-15
-b0 N
-b0 V
-0T
+1,
 b1110 &
-b1110 X
-0M
-0+
-0.
-01
-07
-0:
-0=
-0C
-0F
-0I
-0O
-0R
-0U
-1Z
-1]
+b1110 4
+02
 b0 '
-b0 3
-b0 ?
-b0 K
-b11 W
+b0 *
+b0 -
+b0 0
+b11 3
 b1100 "
 b1100 $
-b1100 b
+b1100 5
 #130
-b1 [
 b110 &
-b110 X
+b110 4
 0)
-0-
-b0 *
-b0 2
-00
-b1 N
-b1 V
-1T
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
 b1 '
-b1 3
-b1 ?
-b1 K
+b1 *
+b1 -
+b1 0
 b1101 "
 b1101 $
-b1101 b
+b1101 5
 #140
-0!
-0\
-b0 Y
-b0 a
-0_
 1)
-b10 [
-b10 ^
-1-
-b11 *
-b11 2
-10
-05
-b0 N
-b0 V
-0T
 b1010 &
-b1010 X
-0M
-0+
-0.
-11
-07
-0:
-1=
-0C
-0F
-1I
-0O
-0R
-1U
+b1010 4
+0,
 b10 '
-b10 3
-b10 ?
-b10 K
+b10 *
+b10 -
+b10 0
 b1110 "
 b1110 $
-b1110 b
+b1110 5
 #150
 1!
-b1 Y
-b1 a
-1_
-b0 [
-b11 ^
 0)
 b11 &
-b11 X
-1M
-0-
-b0 *
-b0 2
-00
-b1 N
-b1 V
-1T
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
+b11 4
+12
 b11 '
-b11 3
-b11 ?
-b11 K
+b11 *
+b11 -
+b11 0
 b1111 "
 b1111 $
-b1111 b
+b1111 5
 #160
-b11 Y
-b11 a
-1\
-b11 [
-b10 ^
 1)
-15
+1,
 b1110 &
-b1110 X
-0M
-1!
-b10 *
-b10 2
-1-
-b11 6
-b11 >
-1<
-0+
-0.
-01
-07
-0:
-0=
-0C
-0F
-0I
-0O
-0R
-0U
-0Z
-0]
-0`
-b11 ,
-b0 /
-b10 8
-b11 ;
-b10 G
-b11 S
+b1110 4
+02
 b0 '
+b0 *
+b0 -
+b0 0
 b0 3
-b0 ?
-b0 K
-b0 W
 b1100 (
-b1011 4
-b1110 @
-b11 L
+b1011 +
+b1110 .
+b11 1
 b0 "
 b0 $
 b1100101111100011 #
 b1100101111100011 %
-b0 c
-b10000 b
+b0 6
+b10000 5
 #170
-b10 [
 b1010 &
-b1010 X
-05
-b1 6
-b1 >
-09
-b10 B
-b10 J
-0H
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
+b1010 4
+0,
 b1 '
-b1 3
-b1 ?
-b1 K
+b1 *
+b1 -
+b1 0
 b1 "
 b1 $
-b1 c
+b1 6
 #180
 0!
-0\
-b1 Y
-b1 a
-1_
-b1 [
-b11 ^
 0)
-b11 6
-b11 >
-19
-15
-b11 B
-b11 J
-1H
-1A
+1,
 b111 &
-b111 X
-1M
-0+
-0.
-11
-07
-0:
-1=
-0C
-0F
-1I
-0O
-0R
-1U
+b111 4
+12
 b10 '
-b10 3
-b10 ?
-b10 K
+b10 *
+b10 -
+b10 0
 b10 "
 b10 $
-b10 c
+b10 6
 #190
-b0 Y
-b0 a
-0_
-b1 ^
 b101 &
-b101 X
-0A
-b1 6
-b1 >
-09
-b10 B
-b10 J
-0H
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
+b101 4
+0/
 b11 '
-b11 3
-b11 ?
-b11 K
+b11 *
+b11 -
+b11 0
 b11 "
 b11 $
-b11 c
-#200
-b11 [
-b10 ^
-1!
-1)
 b11 6
-b11 >
-19
-15
-b11 B
-b11 J
-1H
-1A
+#200
+1)
+1/
 b1110 &
-b1110 X
-0M
-1\
-b10 Y
-b10 a
-0_
-0+
-0.
-01
-07
-0:
-0=
-0C
-0F
-0I
-0O
-0R
-0U
-1Z
-1]
+b1110 4
+02
+1!
 b0 '
-b0 3
-b0 ?
-b0 K
-b1 W
+b0 *
+b0 -
+b0 0
+b1 3
 b100 "
 b100 $
-b100 c
+b100 6
 #210
 0!
-b0 Y
-b0 a
-0\
-b10 [
 b1010 &
-b1010 X
-05
-b1 6
-b1 >
-09
-b10 B
-b10 J
-0H
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
+b1010 4
+0,
 b1 '
-b1 3
-b1 ?
-b1 K
+b1 *
+b1 -
+b1 0
 b101 "
 b101 $
-b101 c
+b101 6
 #220
 1!
-1\
-b11 Y
-b11 a
-1_
-b1 [
-b11 ^
 0)
-b11 6
-b11 >
-19
-15
-b11 B
-b11 J
-1H
-1A
+1,
 b111 &
-b111 X
-1M
-0+
-0.
-11
-07
-0:
-1=
-0C
-0F
-1I
-0O
-0R
-1U
+b111 4
+12
 b10 '
-b10 3
-b10 ?
-b10 K
+b10 *
+b10 -
+b10 0
 b110 "
 b110 $
-b110 c
+b110 6
 #230
-b1 ^
 b101 &
-b101 X
-0A
-b1 6
-b1 >
-09
-b10 B
-b10 J
-0H
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
+b101 4
+0/
 b11 '
-b11 3
-b11 ?
-b11 K
+b11 *
+b11 -
+b11 0
 b111 "
 b111 $
-b111 c
+b111 6
 #240
-b11 [
-b10 ^
-1!
 1)
-b11 6
-b11 >
-19
-15
-b11 B
-b11 J
-1H
-1A
+1/
 b1110 &
-b1110 X
-0M
-1\
-b11 Y
-b11 a
-1_
-0+
-0.
-01
-07
-0:
-0=
-0C
-0F
-0I
-0O
-0R
-0U
-0Z
-0]
-1`
+b1110 4
+02
+1!
 b0 '
-b0 3
-b0 ?
-b0 K
-b10 W
+b0 *
+b0 -
+b0 0
+b10 3
 b1000 "
 b1000 $
-b1000 c
+b1000 6
 #250
-b10 [
 b1010 &
-b1010 X
-05
-b1 6
-b1 >
-09
-b10 B
-b10 J
-0H
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
+b1010 4
+0,
 b1 '
-b1 3
-b1 ?
-b1 K
+b1 *
+b1 -
+b1 0
 b1001 "
 b1001 $
-b1001 c
+b1001 6
 #260
-1!
-0\
-b1 Y
-b1 a
-1_
-b1 [
-b11 ^
 0)
-b11 6
-b11 >
-19
-15
-b11 B
-b11 J
-1H
-1A
+1,
 b111 &
-b111 X
-1M
-0+
-0.
-11
-07
-0:
-1=
-0C
-0F
-1I
-0O
-0R
-1U
+b111 4
+12
 b10 '
-b10 3
-b10 ?
-b10 K
+b10 *
+b10 -
+b10 0
 b1010 "
 b1010 $
-b1010 c
+b1010 6
 #270
 0!
-b0 Y
-b0 a
-0_
-b1 ^
 b101 &
-b101 X
-0A
-b1 6
-b1 >
-09
-b10 B
-b10 J
-0H
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
+b101 4
+0/
 b11 '
-b11 3
-b11 ?
-b11 K
+b11 *
+b11 -
+b11 0
 b1011 "
 b1011 $
-b1011 c
+b1011 6
 #280
-b11 [
-b10 ^
-0!
 1)
-b11 6
-b11 >
-19
-15
-b11 B
-b11 J
-1H
-1A
+1/
 b1110 &
-b1110 X
-0M
-1\
-b10 Y
-b10 a
-0_
-0+
-0.
-01
-07
-0:
-0=
-0C
-0F
-0I
-0O
-0R
-0U
-1Z
-1]
+b1110 4
+02
+0!
 b0 '
-b0 3
-b0 ?
-b0 K
-b11 W
+b0 *
+b0 -
+b0 0
+b11 3
 b1100 "
 b1100 $
-b1100 c
+b1100 6
 #290
-b0 Y
-b0 a
-0\
-b10 [
 b1010 &
-b1010 X
-05
-b1 6
-b1 >
-09
-b10 B
-b10 J
-0H
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
+b1010 4
+0,
 b1 '
-b1 3
-b1 ?
-b1 K
+b1 *
+b1 -
+b1 0
 b1101 "
 b1101 $
-b1101 c
+b1101 6
 #300
 1!
-1\
-b11 Y
-b11 a
-1_
-b1 [
-b11 ^
 0)
-b11 6
-b11 >
-19
-15
-b11 B
-b11 J
-1H
-1A
+1,
 b111 &
-b111 X
-1M
-0+
-0.
-11
-07
-0:
-1=
-0C
-0F
-1I
-0O
-0R
-1U
+b111 4
+12
 b10 '
-b10 3
-b10 ?
-b10 K
+b10 *
+b10 -
+b10 0
 b1110 "
 b1110 $
-b1110 c
+b1110 6
 #310
-b1 ^
 b101 &
-b101 X
-0A
-b1 6
-b1 >
-09
-b10 B
-b10 J
-0H
-1+
-1.
-17
-1:
-1C
-1F
-1O
-1R
+b101 4
+0/
 b11 '
-b11 3
-b11 ?
-b11 K
+b11 *
+b11 -
+b11 0
 b1111 "
 b1111 $
-b1111 c
+b1111 6
 #320
-b10000 c
+b10000 6
