@@ -1,0 +1,163 @@
+$date
+	Mon Sep 08 08:59:42 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module signed_comparator_tb $end
+$var wire 1 ! altb $end
+$var wire 1 " agtb $end
+$var wire 1 # aeqb $end
+$var reg 4 $ a [3:0] $end
+$var reg 4 % b [3:0] $end
+$scope module signed_comparator_ins $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 4 ( s [3:0] $end
+$var wire 4 ) c [4:1] $end
+$var reg 1 * N $end
+$var reg 1 + V $end
+$var reg 1 , Z $end
+$var reg 1 # aeqb $end
+$var reg 1 " agtb $end
+$var reg 1 ! altb $end
+$scope module stage0 $end
+$var wire 1 - a $end
+$var wire 1 . b $end
+$var wire 1 / cin $end
+$var wire 1 0 cout $end
+$var wire 1 1 s $end
+$upscope $end
+$scope module stage1 $end
+$var wire 1 2 a $end
+$var wire 1 3 b $end
+$var wire 1 4 cin $end
+$var wire 1 5 cout $end
+$var wire 1 6 s $end
+$upscope $end
+$scope module stage2 $end
+$var wire 1 7 a $end
+$var wire 1 8 b $end
+$var wire 1 9 cin $end
+$var wire 1 : cout $end
+$var wire 1 ; s $end
+$upscope $end
+$scope module stage3 $end
+$var wire 1 < a $end
+$var wire 1 = b $end
+$var wire 1 > cin $end
+$var wire 1 ? cout $end
+$var wire 1 @ s $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1@
+0?
+1>
+0=
+0<
+1;
+1:
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+1/
+1.
+1-
+0,
+1+
+1*
+b111 )
+b1111 (
+b1000 '
+b111 &
+b1000 %
+b111 $
+0#
+1"
+0!
+$end
+#10
+0>
+0:
+0"
+1!
+06
+1+
+0*
+01
+1;
+b100 (
+0@
+b1011 )
+1?
+03
+08
+1=
+0-
+07
+1<
+b110 %
+b110 '
+b1010 $
+b1010 &
+#20
+0+
+1>
+1"
+0!
+0*
+1?
+1;
+b1111 )
+1:
+b100 (
+0@
+18
+17
+0<
+b10 %
+b10 '
+b110 $
+b110 &
+#30
+1#
+1,
+1?
+0*
+0;
+0@
+1>
+0"
+0!
+0+
+1:
+19
+b0 (
+06
+b1111 )
+15
+13
+08
+02
+b100 %
+b100 '
+b100 $
+b100 &
+#40
