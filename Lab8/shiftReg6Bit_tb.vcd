@@ -1,0 +1,70 @@
+$date
+	Mon Sep 29 00:49:57 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module shiftReg6Bit_tb $end
+$var wire 6 ! Q [5:0] $end
+$var reg 1 " W $end
+$var reg 1 # clk $end
+$scope module shiftReg6Bit_ins $end
+$var wire 1 " W $end
+$var wire 1 # clk $end
+$var reg 6 $ Q [5:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx $
+0#
+0"
+bx !
+$end
+#10
+b1xxxxx !
+b1xxxxx $
+1"
+1#
+#20
+0"
+0#
+#30
+b1xxxx !
+b1xxxx $
+1#
+#40
+0#
+1"
+#50
+b101xxx !
+b101xxx $
+1#
+#60
+0#
+#70
+b1101xx !
+b1101xx $
+1#
+#80
+0#
+0"
+#90
+b1101x !
+b1101x $
+1#
+#100
+0#
+#110
+b1101 !
+b1101 $
+1#
+#120
+0#
