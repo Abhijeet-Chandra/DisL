@@ -1,16 +1,16 @@
-module priority_encoder_16to4(w,en,y);
+module priority_encoder_16to4(w,z,y);
 
 input [15:0]w;
-output reg en;
+output reg z;
 output reg [3:0]y;
 
 always @(w)begin
-    en = 0;
-    y = 4'b0000;
+    z = 0;
+    y = 4'bx;
     begin : for_loop
     for(integer i=15; i>=0; i = i-1) begin
         if(w[i])begin
-            en = 1;
+            z = 1;
             y = i[3:0];
             disable for_loop;
         end

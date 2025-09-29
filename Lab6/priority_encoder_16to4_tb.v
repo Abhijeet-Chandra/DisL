@@ -4,10 +4,10 @@
 module priority_encoder_16to4_tb();
 
 reg [15:0]w;
-wire en;
+wire z;
 wire [3:0]y;
 
-priority_encoder_16to4 priority_encoder_16to4_ins(w,en,y);
+priority_encoder_16to4 priority_encoder_16to4_ins(w,z,y);
 
 initial begin
     $dumpfile("priority_encoder_16to4_tb.vcd");
